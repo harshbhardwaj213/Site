@@ -1,0 +1,114 @@
+.header{
+    display: flex-column;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(173, 35, 35);
+}
+.welcome{
+    display: flex-column;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 400px;
+    color: rgb(173, 35, 35);
+}
+.bg-img{
+    display: flex;
+    margin-top: 0;
+    border-bottom: 5px solid plum;
+}
+#js{
+    width: 100%;
+    height: 500px;
+}
+#profile{
+    margin-top: 50px;
+    display: flex-column;
+    text-align: center;
+}
+.profile-img{
+    width: 150px;
+    height: 150px;
+    border: 4px solid rgb(150, 18, 18);
+    border-radius: 50%;
+}
+.container{
+    display: flex-column;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.container>h2{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.interests{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.img img{
+    margin-right: 20px;
+    height: 200px;
+    width: 300px;
+}
+.para{
+    width: 200px;
+    text-align: left;
+}
+#heading-skills{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.skills img{
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.contact a{
+    background-color: #c17ccd;
+    padding: 10px 15px;
+    border-radius: 5%;
+    color: rgb(75, 16, 82);
+    text-decoration:none;
+    font-size: 20px;
+}
+
+.gradient-background {
+    margin-top: 50px;
+    padding: 100px;
+    padding-top: 50px;
+    /* background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172); */
+    background: linear-gradient(300deg, plum, #c869d9, #ce5c9b);
+    background-size: 100% 100%;
+    animation: gradient-animation 18s ease infinite;
+}
+.footer>div{
+    display: flex;
+    justify-content: center;
+}
+
+.footer a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(75, 16, 82);
+}
